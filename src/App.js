@@ -1,9 +1,8 @@
 import React from "react";
 // import "./style.css";
-import { EventData2 } from "./event-data";
+// import { EventData2 } from "./event-data";
+import RefsArray from "./refs-array";
 
-function App() {
-  return <EventData2 />;
+export default function App() {
+  return <RefsArray />;
 }
-
-export default App;
